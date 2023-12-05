@@ -1,6 +1,7 @@
 header{
 background-color: teal;
 padding-left: 100px;
+font-family: sans-serif;
 }
 body{
 background-color: black;
@@ -23,8 +24,21 @@ height: 150px;
     display: flex;
     flex-direction: row;
     gap: 10px;
+    overflow: hidden;
 }
 
 .navbar a{
-color: aqua;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover{
+    color: azure;
+    background-color: blueviolet;
+}
+.navbar a:active{
+    background-color: khaki;
+    color: black;
 }
