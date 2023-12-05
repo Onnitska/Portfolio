@@ -1,5 +1,5 @@
 header{
-background-color: white;
+background-color: teal;
 padding-left: 100px;
 }
 body{
@@ -8,9 +8,15 @@ background-color: black;
 p{
     color:gray;
 }
-
-div{
-color: aliceblue;
+h1{
+    color: blanchedalmond;
+}
+.box{
+    background-color: beige;
+border: 15px salmon;
+width: 150px;
+box-sizing: content-box;
+height: 150px;
 }
 
 .navbar{
@@ -20,5 +26,5 @@ color: aliceblue;
 }
 
 .navbar a{
-
+color: aqua;
 }
