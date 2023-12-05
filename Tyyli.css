@@ -12,3 +12,13 @@ p{
 div{
 color: aliceblue;
 }
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.navbar a{
+
+}
