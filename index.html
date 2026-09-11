@@ -1,30 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-    <link rel="stylesheet" href="Tyyli.css">
+<html lang="fi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="Tyyli.css">
 </head>
-<header>
-    <div class="navbar">
 
-    </div>
-    My portfolio</header>
-<div>
-    <h1>Achievements</h1>
 <body>
-    <h2>Projects</h2>
 
-    <div class="container">
-        <div class="box">
-            <h3>Fanikauppa</h3>
-            <a href="./Fanikauppa/index.html">Fanikauppa</a>
-            <br>
-            <h4>Ohjaamo projekti</h4>
-            <a href="https://ohjaamo.onnlah23.treok.io/">Ohjaamo projekti</a>
+    <header>
+        <nav class="navbar">
+            <a href="#home">Etusivu</a>
+            <a href="#projects">Projektit</a>
+            <a href="#about">Minusta</a>
+            <a href="#contact">Yhteystiedot</a>
+        </nav>
+
+        <div class="hero" id="home">
+            <h1>My Portfolio</h1>
+            <p>Opiskelijan portfolio ja projektit</p>
         </div>
-    </div>
+    </header>
+
+    <main>
+
+        <section id="projects">
+            <h2>Projektit</h2>
+
+            <div class="container">
+
+                <article class="box">
+                    <h3>Fanikauppa</h3>
+                    <p>Verkkokauppaprojekti.</p>
+                    <a href="./Fanikauppa/index.html">Katso projekti →</a>
+                </article>
+
+                <article class="box">
+                    <h3>Ohjaamo-projekti</h3>
+                    <p>Ohjaamo-projektin verkkosivu.</p>
+                    <a href="https://ohjaamo.onnlah23.treok.io/">
+                        Katso projekti →
+                    </a>
+                </article>
+
+                <article class="box">
+                    <h3>Kolmas projekti</h3>
+                    <p>Lisää tähän kuvaus uudesta projektistasi.</p>
+                    <a href="#">Katso projekti →</a>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Minusta</h2>
+            <p>
+                Olen opiskelija, joka on kiinnostunut verkkosivujen
+                ja ohjelmistojen kehittämisestä.
+            </p>
+        </section>
+
+    </main>
+
+    <footer id="contact">
+        <p>Portfolio © 2026</p>
+    </footer>
+
 </body>
-</div>
-</html> 
+</html>
+
